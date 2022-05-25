@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,65 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.rowX{display:flex; flex-direction:row;}
+.rowY{display:flex; flex-direction:column;}
+
+.app {
+  /* display: flex;
+  flex-direction: row; */
+  width: 100%;
+  /* flex-direction: row; */
+}
+.sidebar {
+  /* display: flex; */
+  position: fixed;
+  bottom: 0;
+  width: 20%;
+  vertical-align: left;
+  /* flex-direction: column; */
+}
+.main-content {
+  width: 70%;
+  /* vertical-align: right; */
+}
+.wrap {
+  width: 100%;
+  flex-direction: row;
+}
+
+.floatright {
+  float:right; 
+  width: 80%;
+  background-color: #ff0000;
+  /* height: 400px; */
+}
+
+.floatleft {
+float: right;
+position: fixed;
+  bottom: 0;
+  background-color: #00ff00;
+  justify-content: center;
+  height: 150px;
+  /* vertical-align: center; */
+  width: 20%;
+}
+
+/* .myappbar {
+  width: 100px;
+} */
+.intro{
+  display: flex;
+  flex-direction: row;
+}
+.intro-text{
+  flex-grow: 1;
+}
+.sdeline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: '70vh';
 }
