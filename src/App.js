@@ -1,16 +1,10 @@
-import { Switch } from '@mui/material';
-import './App.css';
-import Layout from "./Components/Layout";
-import CustomizedSwitches from './Components/Myswitch';
+import React from 'react'
+import Home from './components/Home'
 
 function App() {
   return (
-    <div>
-      <Layout>
-      </Layout>
-    </div>
-
-  );
+    <div><Home/></div>
+  )
 }
 
-export default App;
+export default App

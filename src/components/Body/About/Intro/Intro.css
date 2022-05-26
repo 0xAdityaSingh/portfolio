@@ -1,0 +1,31 @@
+.myintro{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+}
+
+.myimg{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.mytext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 16em;
+}
+
+.big-text{
+    /* display: flex; */
+    font-weight: 800;
+    font-size: 50px;
+}
+.small-text{
+    padding-top: 1.2em;
+    /* display: flex; */
+    font-size: 30px;
+}

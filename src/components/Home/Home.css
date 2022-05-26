@@ -1,0 +1,42 @@
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+.body{
+    display: flex;
+    padding-top: 15em;
+    /* flex-direction: column;
+    width: 70%;
+    margin: auto; */
+}
+.colors{
+    display: flex;
+    position:fixed;
+    /* left: -5em; */
+    margin-left: -5em;
+    bottom:2em;
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 1024px) {
+    .home{
+        width: 90%;
+    }
+
+    .colors{
+        display: none;
+    }
+}
+@media only screen and (max-width: 512px) {
+    .home{
+        width: 100%;
+    }
+    .colors{
+        display: none;
+    }
+}
