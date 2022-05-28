@@ -1,0 +1,72 @@
+.prcard{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0px;
+    padding: 8px 0px;
+}
+/* .prcard:hover{
+    background-color: #f5f5f5;
+} */
+.primg{
+    width: 40%;
+}
+.prinfo{
+    margin-right: 24px;
+    font-size: 20px;
+}
+.prtitle{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.prtags{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+.prtag{
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 4px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.prlinks a{
+    text-decoration: none;
+    color: #000;
+}
+.prlinks{
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+}
+.prlinks a:hover{
+    text-decoration: underline;
+}
+.prlinkbutton{
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 4px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 720px){
+    .primg{
+        width: 70%;
+    }
+    .prcard{
+        flex-direction: column;
+    }
+    .prinfo{
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+    .prtags{
+        max-width: 100%;
+    }
+}

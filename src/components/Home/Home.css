@@ -18,9 +18,17 @@ html{
     display: flex;
     position:fixed;
     /* left: -5em; */
-    margin-left: -5em;
+    
     bottom:2em;
-    transform: rotate(90deg);
+    
+}
+
+@media only screen and (max-width: 1400px) {
+    .colors{
+        transform: rotate(90deg);
+        margin-left: -5em;
+        bottom:4.5em;
+    }
 }
 
 @media only screen and (max-width: 1024px) {

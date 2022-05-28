@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import Intro from './Intro'
+import Projects from './Projects'
 import Summary from './Summary'
 
 function About() {
@@ -10,7 +11,7 @@ function About() {
             <Intro/>
         </div>
         <div className='about-projects'>
-        Projects
+        <Projects/>
         </div>
         <div className='about-summary'>
             <Summary/>
