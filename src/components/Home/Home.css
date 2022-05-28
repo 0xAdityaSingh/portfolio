@@ -17,7 +17,7 @@ html{
 .colors{
     display: flex;
     position:fixed;
-    /* left: -5em; */
+    left: 1em;
     
     bottom:2em;
     
