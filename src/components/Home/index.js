@@ -17,9 +17,9 @@ function Home() {
         <div className='body'>
             <Body/>
         </div>
-        <div>
+        {/* <div>
             <Footer/>
-        </div>
+        </div> */}
 
     </div>
     <div className='colors' >
